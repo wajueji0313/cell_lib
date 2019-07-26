@@ -1,0 +1,12 @@
+
+
+all:
+	vcs -full64 -sv -f flist.f \
+	-fsdb 
+
+compare:
+	vlogan -full64 -f flist.f
+	vhdlan -full64 -f flist.f
+	vlogam -full64 -sv -f flist.f
+
+
