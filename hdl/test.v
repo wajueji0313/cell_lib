@@ -73,6 +73,15 @@ begin
 
 end
 
+always @ (posedge mclk or negedge mreset_n)
+begin
+
+end
+
+always @ (posedge mclk or negedge mreset_n)
+begin
+
+end
 
 
 
